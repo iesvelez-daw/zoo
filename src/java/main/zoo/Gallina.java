@@ -4,9 +4,9 @@ public class Gallina extends Ave {
  
     private String cacareo = "GRRRRR";
     
-    Gallina () {}
+    public Gallina () {}
     
-    Gallina (Habitat habitat, String comida, int longevidad, int periodoIncubacion) {
+    public Gallina (Habitat habitat, String comida, int longevidad, int periodoIncubacion) {
         super(habitat, comida, longevidad, periodoIncubacion);
     }
     
