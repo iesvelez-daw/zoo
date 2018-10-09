@@ -4,9 +4,9 @@ public class Leon extends Mamifero {
  
     private String rugido = "GRRRRR";
     
-    Leon () {}
+    public Leon () {}
     
-    Leon (Habitat habitat, String comida, int longevidad, int periodoLactancia) {
+    public Leon (Habitat habitat, String comida, int longevidad, int periodoLactancia) {
         super(habitat, comida, longevidad, periodoLactancia);
     }
     
